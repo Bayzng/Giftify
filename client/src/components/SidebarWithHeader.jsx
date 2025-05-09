@@ -54,7 +54,10 @@ const SidebarContent = ({ onClose, ...rest }) => {
       {...rest}
     >
       <Flex h="20" alignItems="center" mx="6" justifyContent="space-between">
-        <Image src="/PayGifty.png" />
+        {/* <Image src="/PayGifty.png" /> */}
+        <div className='Giftify'>
+          <button>Giftify</button>
+        </div>
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>
 

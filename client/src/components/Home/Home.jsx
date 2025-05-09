@@ -18,7 +18,7 @@ const Home = () => {
           <Content/>
         </div>
         <div>
-          <Offer/>
+          {/* <Offer/> */}
         </div>
         <div>
           {/* <Footer/> */}

@@ -15,7 +15,7 @@ let transporter = nodemailer.createTransport(config);
 let MailGenerator = new Mailgen({
   theme: "default",
   product: {
-    name: "PayGifty",
+    name: "Giftify",
     link: "https://google.com",
   },
 });
@@ -26,9 +26,9 @@ const sendConfirmationMail = ({ email: userEmail, name, token }, res) => {
   let response = {
     body: {
       name: name,
-      intro: "Welcome to PayGifty! We're very excited to have you on board.",
+      intro: "Welcome to Giftify! We're very excited to have you on board.",
       action: {
-        instructions: "To get started with PayGifty, please click here:",
+        instructions: "To get started with Giftify, please click here:",
         button: {
           color: "#22BC66", // Optional action button color
           text: "Confirm your account",
@@ -44,7 +44,7 @@ const sendConfirmationMail = ({ email: userEmail, name, token }, res) => {
   let message = {
     from: process.env.EMAIL,
     to: userEmail,
-    subject: `${name}, Welcome to PayGify!`,
+    subject: `${name}, Welcome to Giftify!`,
     html: mail,
   };
   transporter

@@ -1,4 +1,6 @@
 /* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    
   }
   
   /* Brand */
@@ -86,13 +89,18 @@
   
   .menu-link {
     text-decoration: none;
-    color: #333;
+    /* color: #333; */
     font-size: 1rem;
     transition: color 0.3s ease;
   }
   
   .menu-link:hover {
-    color: #007bff;
+    color: #f4803a;
+  }
+
+  .menu-item button {
+    color: green;
+    
   }
   
   /* Burger Icon */
@@ -150,6 +158,8 @@
     }
   }
 
+
+
   
   /* Animated Welcome Text */
 .animated-text {
@@ -169,6 +179,27 @@
     font-weight: 500;
     color: #333;
     max-width: 100%;
+  }
+
+  .started {
+    font-size: 3.5rem;
+    font-family: "Cal Sans", sans-serif;
+    color: #f4803a;
+  font-weight: 400;
+  font-style: normal;
+    margin-top: -42px;
+  }
+
+  .Giftify button {
+    background-color: #f4803a;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    border: none;
+    box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
   }
   
   @keyframes typing {

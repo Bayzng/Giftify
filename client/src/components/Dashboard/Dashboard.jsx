@@ -81,7 +81,7 @@ const Dashboard = () => {
             textAlign={["center", "center", "left"]}
           >
             Unlock the Power of Choice: Create and <br /> redeem your crypto
-            gift cards here at <br /> PayGifty!
+            gift cards here at <br /> Giftify!
           </Text>
           <Flex
             mt={10}
@@ -138,7 +138,7 @@ const Dashboard = () => {
               fontWeight="bold"
               color="white"
             >
-              payGifty
+              Giftify
             </Text>
             <Text
               position="absolute"

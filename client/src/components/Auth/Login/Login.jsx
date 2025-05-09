@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import { cartImg } from "../../../../assets";
+import signUp  from "../../../../assets/signUp.png";
 import { useRecoilState, useSetRecoilState } from "recoil";
 import authScreenAtom from "../../../atoms/authAtom";
 import { useState } from "react";
@@ -70,7 +70,7 @@ const Login = () => {
   return (
     <div className="logCon">
       <div className="inputCon">
-        <h2>PayGifty</h2>
+        <h2>Giftify</h2>
         <div className="inputBox">
           <div className="logText">
             <p>Welcome back !!!</p>
@@ -115,7 +115,7 @@ const Login = () => {
         </div>
       </div>
       <div className="logImg">
-        <img src={cartImg} alt="cartImg" className="logPic" />
+        <img src={signUp} alt="cartImg" className="logPic" />
       </div>
     </div>
   );

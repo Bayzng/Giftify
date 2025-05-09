@@ -85,7 +85,7 @@ const Content = () => {
                 points="100.2,40.2 51.5,88.8 29.8,67.5"
               />
             </svg>
-            <p className="success">Right on! Send another?</p>
+            <p className="success">So Easy, Get Started</p>
           </div>
         )}
 
@@ -139,7 +139,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="button-cnt">
+        <div className="button-cnt btn">
           {!isFlipped && (
             <button
               id="btn-card-flip"

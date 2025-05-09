@@ -51,7 +51,7 @@ const Register = () => {
       <div className="--Register-Flex">
         <div className="--Register-Box">
           <div>
-            <h2>payGifty</h2>
+            <h2>Giftify</h2>
             <h1>Sign UP</h1>
           </div>
           <div className="--Register-Form">
