@@ -1,36 +1,138 @@
 import React from 'react'
-import '../Offer/Offer.css'
-import { giftImg, redeemImg, designImg } from '../../../../assets'
+import './Offer.scss'
 
 const Offer = () => {
   return (
-    <div className='offerCon'>
-      <h2>What Can You Do On <span>PayGifty</span></h2>
-      <div className='cardBox'>
+    <div className='offer'>
 
-        <div className='cardContent'>
-          <div>
-            <img src={giftImg} alt="" />
-          </div>
-          <h3>Create Crypto Gift Card</h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate pariatur soluta veritatis incidunt eos! Molestias dignissimos optio necessitatibus sunt.
-        </div>
-
-        <div className='cardContent'>
-          <div>
-            <img src={redeemImg} alt="" />
-          </div>
-          <h3>Redeem Crypto Gift Card</h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate pariatur soluta veritatis incidunt eos! Molestias dignissimos optio necessitatibus sunt.
-        </div>
-
-        <div className='cardContent'>
-          <div>
-            <img src={designImg } alt="" />
+      <div className="allcard">
+        
+        <div className='first'>
+          <div class="route" id="buy"></div>
+          <section class="giftcard">
+            <section class="giftcard-cover">
+              <i class="fa fa-apple"></i>
+            </section>
+            <div class="giftcard-content">
+              <h2>Your order will be shipped to:</h2>
+              <address>
+                <h3>David Khourshid</h3>
+                <a href="https://www.github.com/davidkpiano" target="_blank">www.github.com/davidkpiano</a>
+                <a href="https://www.twitter.com/davidkpiano" target="_blank">www.twitter.com/davidkpiano</a>
+              </address>
+              <div class="subtext">Available to ship: 1 business day</div>
             </div>
-            <h3>Customise Gift Card Design</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate pariatur soluta veritatis incidunt eos! Molestias dignissimos optio necessitatibus sunt.
-          </div>
+            <footer class="giftcard-footer">
+              <div class="giftcard-text">
+                <h1>Gift Card</h1>
+                <h2>$25.00</h2>
+              </div>
+              <div class="ribbon">
+                <div class="giftwrap">
+                  <a href="#buy" class="button">Buy</a>
+                </div>
+                <div class="bow">
+                  <i class="fa fa-bookmark"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+              </div>
+              <div class="giftcard-info">
+                <div>
+                  <input type="text" name="" id="" placeholder="Enter a gift message" />
+                </div>
+                <div>
+                  <a href="#" class="button secondary">Checkout</a>
+                </div>
+              </div>
+            </footer>
+          </section>
+
+
+        </div>
+        <div className='first'>
+          <div class="route" id="buy"></div>
+          <section class="giftcard">
+            <section class="giftcard-cover">
+              <i class="fa fa-apple"></i>
+            </section>
+            <div class="giftcard-content">
+              <h2>Your order will be shipped to:</h2>
+              <address>
+                <h3>David Khourshid</h3>
+                <a href="https://www.github.com/davidkpiano" target="_blank">www.github.com/davidkpiano</a>
+                <a href="https://www.twitter.com/davidkpiano" target="_blank">www.twitter.com/davidkpiano</a>
+              </address>
+              <div class="subtext">Available to ship: 1 business day</div>
+            </div>
+            <footer class="giftcard-footer">
+              <div class="giftcard-text">
+                <h1>Gift Card</h1>
+                <h2>$25.00</h2>
+              </div>
+              <div class="ribbon">
+                <div class="giftwrap">
+                  <a href="#buy" class="button">Buy</a>
+                </div>
+                <div class="bow">
+                  <i class="fa fa-bookmark"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+              </div>
+              <div class="giftcard-info">
+                <div>
+                  <input type="text" name="" id="" placeholder="Enter a gift message" />
+                </div>
+                <div>
+                  <a href="#" class="button secondary">Checkout</a>
+                </div>
+              </div>
+            </footer>
+          </section>
+
+
+        </div>
+        <div className='first'>
+          <div class="route" id="buy"></div>
+          <section class="giftcard">
+            <section class="giftcard-cover">
+              <i class="fa fa-apple"></i>
+            </section>
+            <div class="giftcard-content">
+              <h2>Your order will be shipped to:</h2>
+              <address>
+                <h3>David Khourshid</h3>
+                <a href="https://www.github.com/davidkpiano" target="_blank">www.github.com/davidkpiano</a>
+                <a href="https://www.twitter.com/davidkpiano" target="_blank">www.twitter.com/davidkpiano</a>
+              </address>
+              <div class="subtext">Available to ship: 1 business day</div>
+            </div>
+            <footer class="giftcard-footer">
+              <div class="giftcard-text">
+                <h1>Gift Card</h1>
+                <h2>$25.00</h2>
+              </div>
+              <div class="ribbon">
+                <div class="giftwrap">
+                  <a href="#buy" class="button">Buy</a>
+                </div>
+                <div class="bow">
+                  <i class="fa fa-bookmark"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+              </div>
+              <div class="giftcard-info">
+                <div>
+                  <input type="text" name="" id="" placeholder="Enter a gift message" />
+                </div>
+                <div>
+                  <a href="#" class="button secondary">Checkout</a>
+                </div>
+              </div>
+            </footer>
+          </section>
+
+
+        </div>
       </div>
     </div>
   )

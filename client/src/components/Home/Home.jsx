@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../General/Footer/Footer'
+// import Footer from '../General/Footer/Footer'
 import Navbar from '../General/Navbar/Navbar'
 import Hero from '../General/Hero/Hero'
 import Content from '../General/Content/Content'
@@ -21,7 +21,7 @@ const Home = () => {
           <Offer/>
         </div>
         <div>
-          <Footer/>
+          {/* <Footer/> */}
         </div>
     </div>
   )

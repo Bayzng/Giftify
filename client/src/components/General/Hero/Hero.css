@@ -1,44 +1,24 @@
-.heroCon {
-    margin-top: 2rem;
-    display: flex;
-    gap: 5rem;
-    padding: 6rem;
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+.hero {
+    margin-top: 12rem;
+    text-align: center;
+    
 }
 
-.heroBig {
-    margin-bottom: 20px;
-    font-size: 30px;
-
+.hero h1 {
+    font-size: 4rem;
 }
 
-.heroBig span {
-    color: #F47458;
+.hero h2 {
+    font-size: 2.5rem;
+}
+.hero h3 {
+    font-size: 3.5rem;
+    font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.heroCon p {
-    font-size: 25px;
-}
 
-.heroCon button {
-    background-color: #F47458;
-    cursor: pointer;
-    color: aliceblue;
-    margin-top: 60px;
-    border: none;
-    padding: 10px 40px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
 
-.heroPic {
-    width: 500px;
-    height: 400px;
-    border-radius: 20px;
-}
-
-.heroCon img {
-    width: 100rem;
-}
